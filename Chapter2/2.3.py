@@ -8,6 +8,9 @@ print(message_2.title())  #title 首字母大写
 print(message_2.upper())  #title 字母大写
 print(message_2.lower())  #title 字母小写
 
+
+
+
 first_name = "ada"
 last_name = "lovelace"
 full_name = f"{first_name} {last_name}"  #在字符串中引用变量

@@ -15,6 +15,24 @@ print(message_1)
 list_1[0] = "that"
 print(list_1)
 
+#末尾添加append
 list_1.append("Amazing!")
+print(list_1)
+
+#任意位置添加insert
+list_1.insert(0, "Wow!")
+print(list_1)
+
+#任意位置删除 del
+del list_1[0]
+print(list_1)
+
+#pop弹出末尾并可赋值
+popped = list_1.pop()
+print(list_1)
+print(popped)
+
+#根据值删除一次remove
+list_1.remove("wow!")
 print(list_1)
 

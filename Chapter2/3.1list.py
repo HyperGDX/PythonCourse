@@ -12,3 +12,9 @@ print(list_1[-1])
 message_1 = f"A {list_1[3].upper()} example"
 print(message_1)
 
+list_1[0] = "that"
+print(list_1)
+
+list_1.append("Amazing!")
+print(list_1)
+
